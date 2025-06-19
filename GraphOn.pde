@@ -39,8 +39,8 @@ void draw() {
   background(255);
   stroke(0);
   fill(0);
-  textAlign(CENTER);
-  textSize(16);
+  textAlign(CENTER); // set original alignment for text
+  textSize(16); // set original size for text
   drawAxes(minX, maxX, minY, maxY); // draw the axes
   if (lineData.size() == 0) { // check if dataset is empty or didnt load
     fill(0);
